@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script that tests if ./code.sh outputs "Hashicorp"
 
-out=$(bash ./hello.sh)
+out=$(bash ./code.sh)
 
 if [ "${out}" == "Hashicorp" ]; then
     echo "==> Test passed."
