@@ -1,10 +1,10 @@
-name: Test Hello
+name: Test code
 on: [pull_request]
 jobs:
-  test-hello:
+  test-code:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Run tests
-        run: bash ./code_test.sh
+        run: bash ./test.code.sh
