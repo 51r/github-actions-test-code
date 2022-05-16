@@ -7,4 +7,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Run tests
-        run: bash ./code_test.sh
+        run: bash ./test_code.sh
