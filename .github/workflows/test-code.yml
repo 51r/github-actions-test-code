@@ -1,4 +1,4 @@
-name: Test Hello
+name: Test Code
 on: [pull_request]
 jobs:
   test-hello:
